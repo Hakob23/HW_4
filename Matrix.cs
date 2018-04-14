@@ -115,13 +115,13 @@ namespace Assignment4_Matrix
 
             for(int i = 0; i<Tmatrix.length; i++)
             {
-                for(int j = 0; j<Tmatrix.length; j++)
+                for(int j = 0; j<Tmatrix.width; j++)       
                 {
                     Tmatrix.matrix[i, j] = matrix[j, i];    // Formula of Tranposed Matrix;
                 }
             }
 
-            return Tmatrix;
+            return Tmatrix;                    
 
         }
 
